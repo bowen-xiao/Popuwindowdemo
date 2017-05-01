@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical" android:layout_width="match_parent"
     android:id="@+id/pop_layout"
     android:background="#ffffff"
@@ -25,15 +26,15 @@
                 android:layout_height="wrap_content"
                 android:textSize="18sp"
                 android:layout_margin="2dp"
-                android:text="¥ 599"
-                android:textColor="#ff0000"/>
+                android:textColor="#ff0000"
+                android:text="商品金额 : $998" />
             <TextView
+
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="18sp"
                 android:layout_margin="2dp"
-                android:text="中科智慧康复诊仪20项指标"
-                android:textColor="#000"/>
+                android:text="商品名称 : XXXXXX"
+                android:textAppearance="@style/TextAppearance.AppCompat" />
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_margin="2dp"
@@ -43,13 +44,13 @@
                     android:layout_height="wrap_content"
                     android:textSize="15sp"
                     android:layout_marginRight="15dp"
-                    android:text="销量：95"/>
+                    android:text="销量：88"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="15dp"
                     android:textSize="15sp"
-                    android:text="库存：150"/>
+                    android:text="库存：168"/>
             </LinearLayout>
         </LinearLayout>
 
@@ -72,7 +73,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="－      ＋"
+            android:text="－   8   ＋"
             android:textSize="20sp"
             android:layout_alignParentRight="true"
             android:layout_marginRight="10dp"/>
@@ -90,7 +91,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="此处用于展示商品规格参数"/>
+            android:text="商品详细内容"/>
     </LinearLayout>
 
     <View
@@ -111,15 +112,17 @@
             android:padding="10dp"
             android:textSize="20sp"
             android:background="#F6F6F6"
+            android:textColor="#B32090fe"
             android:text="加入购物车"/>
         <TextView
+            android:textColor="#F6F6F6"
             android:id="@+id/btn_cancel"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:textSize="20sp"
             android:gravity="center"
-            android:background="#2090fe"
+            android:background="#B32090fe"
             android:padding="10dp"
             android:text="立即购买"/>
     </LinearLayout>
